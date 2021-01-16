@@ -1,6 +1,6 @@
-class CreateRooes < ActiveRecord::Migration[6.0]
+class CreateRooms < ActiveRecord::Migration[6.0]
   def change
-    create_table :rooes do |t|
+    create_table :rooms do |t|
       t.string :name, null: false
       t.timestamps
     end

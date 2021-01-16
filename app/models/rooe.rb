@@ -1,2 +1,0 @@
-class Rooe < ApplicationRecord
-end
